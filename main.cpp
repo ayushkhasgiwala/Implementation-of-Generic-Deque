@@ -287,19 +287,16 @@ Deque<string> *arr =NULL;
  switch (c)
  {
 //push-front
- case 1: cin>>x;
-         arr->push_front(x);  
-         arr->display();
-
-         break;
-//pop-front
  case 2: arr->pop_front();
          arr->display();
+         break;        
+         
+ case 1: cin>>x;
+         arr->push_front(x);  
          break;
  //push-back
  case 3: cin>>x;
          arr->push_back(x);
-         arr->display();
          break;
  
  //pop-back
